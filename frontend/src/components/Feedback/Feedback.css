@@ -1,0 +1,94 @@
+
+/* Container Layout */
+.feedback-container {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    gap: 20px;
+  }
+  .hr hr{
+    height: 2px;
+    background-color: #e2e2e2;
+    border: none;
+    margin-top: 40px;
+  }
+  
+  /* Left Image Section */
+  .feedback-image img {
+    width: 200px;
+    border-radius: 10px;
+  }
+  
+  /* Right Form Section */
+  .feedback-form {
+    flex: 1;
+  }
+  
+  .feedback-form h2 {
+    margin-bottom: 20px;
+    font-size: 60px;
+    color: tomato;
+  }
+  
+  .feedback-thank-you h3 {
+    text-align: center;
+    color: #28a745;
+  }
+  
+  /* Form Groups */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  /* Rating Stars */
+  .rating-stars {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .star {
+    cursor: pointer;
+    font-size: 20px;
+    color: #ccc;
+    transition: color 0.3s;
+  }
+  
+  .star.selected {
+    color: tomato;
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    background: transparent;
+    font-size: 16px;
+    color : black;
+    border: 3px solid tomato;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+  }
+  
+  .submit-btn:hover {
+    background-color: tomato;
+    color: white;
+  }
+  
