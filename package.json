@@ -1,0 +1,19 @@
+{
+  "name": "food-zone",
+  "version": "1.0.0",
+  "description": "Food Zone :- Food Zone is a food delivery website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rushabh-118/Food-Zone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rushabh-118/Food-Zone/issues"
+  },
+  "homepage": "https://github.com/Rushabh-118/Food-Zone#readme"
+}
